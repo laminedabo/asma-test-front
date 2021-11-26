@@ -1,0 +1,11 @@
+.example-card {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
